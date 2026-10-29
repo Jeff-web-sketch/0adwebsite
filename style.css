@@ -1,7 +1,33 @@
+
 body {
 	background-image: url("images/branding.png");
-	padding-left: 50%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 0;
+	left: 10;
 }
 p {
 	color: #e1c071;
+}
+h1 {
+	color: #e1c071;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+}
+footer {
+	color: #e1c071;
+	display: flex;
+	justify-content: center;
+}
+.menu-bar-btn {
+	background-image: url("images/menu_button.png");
+	
+}
+.menu-bar-btn:hover {
+	background-image: url("images/menu_button_hover.png");
+	padding: 1;
+	background-repeat: no-repeat;
+
 }
