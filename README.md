@@ -7,6 +7,10 @@ Please put the date and name and the changes you do when you commit (see below, 
 Add menu buttons<br>
 initial release<br>
 add images and styling<br>
-_____new_____
 add favicon and title to other pages<br>
-startedworking on download page<br>
+started working on download page<br>
+_____new_____
+fix a few things in html strucutre<br>
+add menu bar and stuff to other pages, and work on other pages<br>
+add menu bar image, make buttons hover radius 15px<br>
+probably stuff I am forgetting (: <br>

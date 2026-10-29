@@ -1,12 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <link rel="stylesheet" href="style.css" />
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-		<title>0 A.D. Unofficial Website!!!</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <title>0 A.D. Unofficial Website!!!</title>
     </head>
     <body>
-        <a href="favicon.ico" download="cheese"><p>Download here!</p></a>
+        <h1>Download 0 A.D.</h1>
+        <header>
+            <button id="mainmenubtn" class="menu-bar-btn">Main Menu</button>
+            <button id="aboutbtn" class="menu-bar-btn">About</button>
+            <button id="newsbtn" class="menu-bar-btn">News</button>
+            <button id="infobtn" class="menu-bar-btn">Info</button>
+            <button id="downloadbtn" class="menu-bar-btn">Download</button>
+            <button id="forumbtn" class="menu-bar-btn">Forums</button>
+        </header>
+        <h1>Download (select your operating system)</h1>
+            <button id="macosbtn" class="menu-bar-btn">Macos</button>
+            <button id="windowsbtn" class="menu-bar-btn">Windows</button>
+            <button id="linuxbtn" class="menu-bar-btn">Linux</button>
+        </p>
+        <h2 id="about">Download instructions</h2>
+        <p></p>
     </body>
 </html>
+<footer>Last updated, 10/29/26</footer>
+<script>
+    document.getElementById("mainmenubtn").addEventListener("click", function () {
+        document.location = "index.html";
+    });
+    document.getElementById("aboutbtn").addEventListener("click", function () {
+        document.location = "index.html#about";
+    });
+    document.getElementById("newsbtn").addEventListener("click", function () {
+        document.location = "news.html";
+    });
+    document.getElementById("infobtn").addEventListener("click", function () {
+        document.location = "info.html";
+    });
+    document.getElementById("downloadbtn").addEventListener("click", function () {
+        document.location = "download.html";
+    });
+    document.getElementById("forumbtn").addEventListener("click", function () {
+        document.location = "https://wildfiregames.com/forum/";
+    });
+    document.getElementById("macosbtn").addEventListener("click", function () {
+        document.location = "binaries/0ad.dmg";
+    });
+    document.getElementById("windowsbtn").addEventListener("click", function () {
+        document.location = "binaries/0ad.exe";
+    });
+    document.getElementById("linuxbtn").addEventListener("click", function () {
+        document.location = "binaries/0ad.app";
+    });
+</script>
