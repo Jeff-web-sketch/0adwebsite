@@ -7,3 +7,6 @@ Please put the date and name and the changes you do when you commit (see below, 
 Add menu buttons<br>
 initial release<br>
 add images and styling<br>
+_____new_____
+add favicon and title to other pages<br>
+startedworking on download page<br>
