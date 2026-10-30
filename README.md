@@ -9,8 +9,9 @@ initial release<br>
 add images and styling<br>
 add favicon and title to other pages<br>
 started working on download page<br>
-_____new_____
 fix a few things in html strucutre<br>
 add menu bar and stuff to other pages, and work on other pages<br>
 add menu bar image, make buttons hover radius 15px<br>
 probably stuff I am forgetting (: <br>
+## new
+change a little bit of stuff in downloads, also tried to make sure it would work<br>
